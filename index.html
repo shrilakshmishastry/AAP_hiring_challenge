@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AAP</title>
+<!--    link for bootstrap5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<!--    link for fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+<!--    link for css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--conatiner-->
+<div class="container-fluid ps-0 pe-0">
+<!--    navbar-->
+    <nav class="navbar navbar-expand-md navbar-danger bg-danger">
+        <div class="container-fluid">
+            <a href="#" class="d-none d-sm-block navbar-brand brandName"></a>
+            <form action="" class=" d-flex searchBar ps-md-3 pe-md-3 pt-md-1 pb-md-1">
+                <input class="searchBar d-none d-sm-block form-control me-2 " type="search" aria-label="search">
+                <img src="images/search_icon.svg" class="d-none d-sm-block imgSearch" alt="search icon">
+            </form>
+        </div>
+        <div class="d-block d-sm-none pt-3 pb-3">
+           <div class="d-flex flex-row ps-2 pe-2">
+               <a href="" class="navbar-brand brandName"></a>
+               <form action="" class=" d-flex flex-row searchBar pe-3 ">
+                   <input class="searchBar form-control " type="search" aria-label="search">
+                   <img src="images/search_icon.svg" class=" " alt="search icon">
+               </form>
+           </div>
+
+        </div>
+    </nav>
+<!--    row with banground-->
+    <div class="searchBar plainRow">
+    </div>
+<!--    landing container-->
+    <div class="row pb-5 pb-md-0 pb-lg-5  langBg ">
+        <div class="col-md-5  offset-1 offset-md-1 col-12 col-lg-4  offset-lg-2 pt-5 pb-5 pb-md-0">
+            <h2 class="black text-white">Save 10%</h2>
+            <h4 class="light text-white">Ipsum delicata sed ex</h4>
+            <p class="regular text-white ">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ad, et ex expedita explicabo fugit hic, ipsum iusto, laborum
+                libero nesciunt nihil officiis porro
+                praesentium quae repellat repudiandae sed tempora voluptate.
+            </p>
+        </div>
+        <div class="col-lg-3  d-md-none d-lg-block  offset-lg-1">
+            <img  class="img-fluid d-none d-sm-block" src="images/PEAK_PNG.png" alt="">
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="d-none d-md-block d-lg-none  col-md-6 ">
+            <img  class="imgTank h-25 w-50" src="images/PEAK_PNG.png" alt="">
+        </div>
+        <div class="d-block d-sm-none">
+            <img  class="imgTank h-25 " src="images/PEAK_PNG.png" alt="">
+        </div>
+    </div>
+<!--    row to display card-->
+    <div class="row mt-5 d-none d-sm-block  mt-lg-0  justify-content-center">
+        <div class="col-md-3 d-md-none d-lg-block rowCard1">
+            <div class="card shadow cardContent" >
+                <div class="card-body cardBody card1">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3  rowCard2">
+            <div class="card  d-md-none d-lg-block shadow cardContent" >
+                <div class="card-body cardBody card2">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 rowCard3 d-md-none d-lg-block  ">
+            <div class="card  shadow cardContent" >
+                <div class="card-body cardBody card3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    visible only in tablet-->
+    <div class=" d-none d-md-block d-lg-none">
+        <div class="row justify-content-center">
+            <div class="col-md-6 ps-5 ">
+                <div class="card shadow cardContent" >
+                    <div class="card-body cardBody  card1">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="card  shadow cardContent" >
+                    <div class="card-body cardBody  card2">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row ms-5 mb-5 mt-4 d-none d-md-block d-lg-none ">
+        <div class="col-md-4 offset-md-3 ">
+            <div class="card  shadow cardContent" >
+                <div class="card-body cardBody card3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    card for mobile-->
+    <div class="d-block d-sm-none mt-5">
+        <div class="row mt-5 justify-content-center">
+            <div class="col-10 card1 card  mt-5">
+                <div class="card-body p-4 border-white"></div>
+            </div>
+            <div class="col-10 mt-3 card2 card ">
+                <div class="card-body p-4"></div>
+            </div>
+            <div class="col-10 mt-3 card3 card ">
+                <div class="card-body p-4"></div>
+            </div>
+            <div class="col-10 mt-3 card4 card ">
+                <div class="card-body p-4"></div>
+            </div>
+        </div>
+    </div>
+    <!--        footer-->
+    <footer class="footer  mt-5 mt-lg-0 bg-dark pt-md-5 pb-md-5">
+        <div class="row justify-content-center">
+            <div class="col-8 col-md-3  text-start ">
+                <h5 class="black" >
+                    Left Footer Links
+                </h5>
+                <a href="" class="d-block text-white regular">
+                   <small> Left Footer link ONE</small>
+                </a>
+                <a href="" class=" text-white regular">
+                    <small> Left Footer link TWO</small>
+                </a>
+            </div>
+            <div class="col-8 col-md-3">
+                <h5 class="black" >
+                    Left Footer Links
+                </h5>
+                <a href="" class="d-block text-white regular">
+                    <small> Left Footer link ONE</small>
+                </a>
+                <a href="" class=" text-white regular">
+                    <small> Left Footer link TWO</small>
+                </a>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
